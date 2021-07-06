@@ -5,13 +5,6 @@ public class Player {
 	private String playerType;
 	private double playerStats;
 	
-	public static void main(String[] args);
-	public Player (String plyName, String plyAge, String plyType, double plyStats ){
-		playerName = plyName;
-		playerAge = plyAge;
-		playerType = plyType;
-		playerStats = plyStats;
-	}
 		public void displayPlayerDetails () {
 			System.out.println("Player Name: " + playerName);
 			System.out.println("Player Age: " + playerAge);
